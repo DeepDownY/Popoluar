@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/List_Type_Name"
+        android:entryValues="@array/List_Type_Value"
+        android:key="ListType"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/List_Type_title" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/Sort_Type_Name"
+        android:entryValues="@array/Sort_Type_Value"
+        android:key="SortType"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/Sort_Type_title" />
+
+</PreferenceScreen>

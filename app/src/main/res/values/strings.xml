@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Popoluar</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+    <string name="List_Type_title">List Type</string>
+
+    <string-array name="List_Type_Name">
+        <item>StaggeredGrid</item>
+        <item>verticalLinear</item>
+    </string-array>
+
+    <string-array name="List_Type_Value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string name="Sort_Type_title">Sort Type</string>
+
+    <string-array name="Sort_Type_Name">
+        <item>Pop</item>
+        <item>Rate</item>
+    </string-array>
+
+    <string-array name="Sort_Type_Value">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string name="title_activity_movie_detal">MovieDetalActivity</string>
+
+    <string name="title_activity_movie">MovieActivity</string>
+    <string name="setting_title">Setting</string>
+
+</resources>
